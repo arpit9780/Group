@@ -25,13 +25,13 @@ const RegisterPage = () => {
 
   const onSubmit = (data) => {
     const list = JSON.parse(localStorage.getItem("register"));
-    console.log(list);
+    console.log(5555,list);
 
     val.push(data);
 
     localStorage.setItem("register", JSON.stringify(val));
 
-    console.log(val);
+    console.log(4444,val);
 
     reset();
   };
